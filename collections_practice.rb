@@ -20,7 +20,7 @@ def swap_elements(array)
 end
 
 def reverse_array(integers)
-  new_integers = []
+  new_integers = " "
   integers.sort do |a, b|
     new_integers << b <=> a
   end
